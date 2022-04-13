@@ -1,0 +1,104 @@
+.additionals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+.left__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.add__image{
+    border-radius: 10%;
+}
+.right__add{
+    margin-left: 5px;
+    width:50vw;
+}
+.add_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 5px 5px 5px ;
+}
+.item{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background:rgb(235, 227, 227) ;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 7px;
+    padding-right:7px ;
+    width:200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.item h4{
+    font-weight: 600;
+    padding: 5px;
+}
+.item button{
+    width: 80px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 155, 5);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.item img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.add_div{
+    display: flex;
+}
+.addclass{
+    color: green;
+}
+.total{
+width: 50%;
+margin: auto;
+}
+.subtotal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:5px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    background:rgb(235, 227, 227) ;
+    border-radius: 8px;
+}
+.subtotal h3{
+    color:rgb(255, 155, 5) ;
+}
+
+.subtotal button{
+    background: rgb(255, 155, 5);
+    border: none;
+    padding-top:10px;
+    padding-bottom:10px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
